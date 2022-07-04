@@ -1,4 +1,8 @@
-Here's a list of all files/folders and what they do;
+This repository contains the R code for running the shinyMobile application. 
+
+It will not be possible to run this code without modification, but it can serve as a template for those who wish to create a similar app. Hence, I have included the Dockerfile for those who wish to see how it can be connected to Google Cloud Run (or a similar cloud-based service). 
+
+Here's a list of all files/folders and what they do:
 
 global.R contains global variables that are automatically passed to both server.R and ui.R.
 Simply run either server, ui, or global.R files to get the whole thing running. 
