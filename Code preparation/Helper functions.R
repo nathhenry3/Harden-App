@@ -11,10 +11,10 @@ lifehack_conn <- function(db_choice = dbChoice) {
       dbConnect(
         drv=RPostgres::Postgres(),
         dbname='Lifehack',
-        host='localhost',
+        host='host',
         port=5432,
-        user='nathan',
-        password='nathan'),
+        user='user',
+        password='password'),
       error = function(e) {print("Error connecting to database")})
   } else if (db_choice == 'production') {
       # Original method: ElephantSQL
@@ -22,7 +22,7 @@ lifehack_conn <- function(db_choice = dbChoice) {
         drv=RPostgres::Postgres(),
         dbname='unupnrpk',
         sslrootcert=here::here('Database manipulation', 'ElephantSQL_certs', 'SHA-2 Root USERTrust RSA Certification Authority.crt'), # Check elephantsql.com for instructions on how to download this
-        host='otto.db.elephantsql.com',
+        host='host',
         port=5432,
         user='user',
         password='password',
