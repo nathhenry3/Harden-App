@@ -1,0 +1,14 @@
+Here's a list of all files/folders and what they do;
+
+global.R contains global variables that are automatically passed to both server.R and ui.R.
+Simply run either server, ui, or global.R files to get the whole thing running. 
+
+Analytics - contains graph files.
+Code preparation - contains helper functions.
+Database manipulation - contains code for interacting with postgres.
+Javascript - contains JS.
+rsconnect - for shinyapps.io.
+Server - for server functions.
+Tests - for unit testing etc.
+UI - contains UI code. 
+www - contains pwa service worker code for pwa functionality.
