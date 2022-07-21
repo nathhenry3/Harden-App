@@ -4,7 +4,7 @@ It will not be possible to run this code without modification, but it can serve 
 
 Here's a list of all files/folders and what they do:
 
-global.R contains global variables that are automatically passed to both server.R and ui.R.
+global.R contains global variables that are automatically passed to both server.R and ui.R - these three files form the backbone of the Shiny application.
 Simply run either server, ui, or global.R files to get the whole thing running. 
 
 Analytics - contains code for creating graphs within the app.
@@ -13,4 +13,4 @@ Database manipulation - contains code for interacting with PostgreSQL database. 
 Javascript - contains JS code.
 Server - for Shiny server functions.
 UI - contains Shiny UI code. 
-www - contains pwa service worker code for pwa functionality.
+www - contains PWA service worker code for PWA functionality.
